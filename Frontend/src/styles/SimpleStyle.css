@@ -1,0 +1,57 @@
+.containerTwoColumn {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    gap: 20px; /* Gap between columns */
+  }
+
+  .container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: auto;
+    align-items: center;
+  }
+  .txtField {
+   
+    margin-top: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .txtSearch {
+   
+    margin-top: 7px;
+   
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .txtSearchBar {
+   
+    margin-top: 7px;
+   
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .routerItem {
+    
+      display: flex;
+      justify-content: center; /* Horizontally center content */
+      align-items: center; /* Vertically center content */
+      height: 100vh; /* Full viewport height */
+    
+  }
